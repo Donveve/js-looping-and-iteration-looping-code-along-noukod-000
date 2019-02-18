@@ -1,11 +1,15 @@
-const employeeNames = ['teddy bear', 'drone', 'doll'];
- 
-function printBadges(employeeNames) {
-    for (let i = 0; i < employeeNames.length; i++) {
-        console.log(`Welcome ${employeeNames[i]}! you are employee `);
+function printBadges(employees){
+    for(let i =0; i < employees.length; i++){
+        console.log(`Welcome ${employees[i]}! You are employee #${i+1}.`);
     }
- 
-    return printBadges ;
+    return employees;
 }
- 
- printBadges(employeeNames) ;
+
+function tailsNeverFails(){
+    // tails = ;
+    let nTails = 0;
+    while(Math.random() >= 0.5){
+        nTails++;
+    }
+    return `You got ${nTails} tails in a row!`;
+}
