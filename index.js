@@ -7,9 +7,9 @@ function printBadges(employees){
 
 function tailsNeverFails(){
     // tails = ;
-    let nTails = 0;
+    let nbreTails = 0;
     while(Math.random() >= 0.5){
-        nTails++;
+        nbreTails++;
     }
-    return `You got ${nTails} tails in a row!`;
+    return `You got ${nbreTails} tails in a row!`;
 }
